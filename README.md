@@ -17,9 +17,14 @@ The system leverages async programming to run multiple agents concurrently, sign
 ![alt text](agentic_system_architecture.png)
 
 ## Environment Setup 
-Run the sync command to set up the environment. Prerequisite is the uv package manager. Install uv from https://docs.astral.sh/uv/getting-started/installation/
+1. Run the sync command to set up the environment. Prerequisite is the uv package manager. Install uv from https://docs.astral.sh/uv/getting-started/installation/
 ```bash 
 uv sync 
+```
+
+2. Install Ollama (https://ollama.com/download): 
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
 ```
 
 ## LLM Configuration
