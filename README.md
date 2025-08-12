@@ -28,9 +28,9 @@ curl -fsSL https://ollama.com/install.sh | sh
 ```
 
 ## LLM Configuration
-This system uses open-source LLM using Ollama as the underlying language model. You need to configure Ollama and add the model name to the `.env` file. A `.env.example` file is provided as a template.
+This system uses open-source LLM using Ollama as the underlying language model. You need to configure Ollama and add the model name to the `.env` file.
 
-As an example, we will be using `gpt-oss:20b`. 
+As an example, we will be using `gemma3:12b`. 
 
 Pull the model from Ollama hub. 
 ```bash
