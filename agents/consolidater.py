@@ -9,7 +9,7 @@ from pydantic import BaseModel, Field
 load_dotenv()
 model = os.environ["MODEL_NAME"]
 
-# Define OpenAI client
+# Define Ollama client
 client = AsyncClient()
 
 # Define messages
